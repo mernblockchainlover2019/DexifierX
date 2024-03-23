@@ -2,33 +2,8 @@
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Section from "@/components/section";
-import { Widget } from "@rango-dev/widget-embedded";
+import RangoWidget from '@/components/rango-widget'
 import styles from '@/styles/home.module.css';
-
-const config = {
-  // This API key is only for test purpose. Don't use it in production.
-  apiKey: "19193389-443b-4d59-9dd9-500bde0931c7",
-  // This project id is only for test purpose. Don't use it in production.
-  // Get your Wallet Connect project id from https://cloud.walletconnect.com/
-  walletConnectProjectId: "489c5034628c45947388bc9a0ef2ea03",
-  amount: 1,
-  from: {
-    blockchain: "BSC",
-    token: {
-      blockchain: "BSC",
-      address: null,
-      symbol: "BNB",
-    },
-  },
-  to: {
-    blockchain: "AVAX_CCHAIN",
-    token: {
-      blockchain: "AVAX_CCHAIN",
-      address: null,
-      symbol: "AVAX",
-    },
-  },
-};
 
 export default function Home() {
   return <main>
@@ -44,7 +19,7 @@ export default function Home() {
         </div>
         <div id="home2" className="col-span-2 relative">
           <div className="w-[360px] h-[540px] z-[1] relative">
-            <Widget config={config} />
+            <RangoWidget />
           </div>
           <div className="absolute w-[180px] right-[40px] top-[-200px]">
             <img src="1.gif" className="rotate-[120deg]" alt="gif1" />
