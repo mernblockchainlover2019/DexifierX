@@ -1,0 +1,594 @@
+.textHighlight {
+    color: #00fcfe;
+}
+
+.iconLogo {
+    height: 50px;
+}
+
+.textLogo {
+    font-family: YAEU7hcr-Pk-0;
+    font-size: 38px;
+    line-height: 100%;
+}
+
+.textLogoSubtitle {
+    font-family: YAFdJmu7CPY-0;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.textNavBar {
+    font-family: YAFdJmu7CPY-0;
+    font-size: 21.33px;
+    font-weight: 700;
+}
+
+.textVideoTitle {
+    font-family: YAFdJgp7PFE-0;
+    font-size: 28px;
+    line-height: 100%;
+}
+
+.textVideoSubtitle {
+    font-family: YAEnS2G4JLg-0;
+    font-size: 14px;
+}
+
+.textSectionTitle28 {
+    font-family: YAFdJmu7CPY-0;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.textSectionTitle40 {
+    font-family: YAFdJmu7CPY-0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.textSectionTitle48 {
+    font-family: YAFdJmu7CPY-0;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.textSectionContent {
+    font-family: YAEnS2G4JLg-0;
+    font-size: 21.33px;
+}
+
+.textExchange {
+    font-family: YAEnS2G4JLg-0;
+    font-size: 36px;
+    color: #f2f2f2;
+}
+
+.cardPrivacy {
+    font-family: YAFdJmu7CPY-0;
+    font-size: 42.66px;
+    font-weight: 700;
+    color: #d73cbe;
+    background: #f2f2f2;
+    padding: 60px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.textCommunity {
+    font-family: YAEnS2G4JLg-0;
+    font-size: 37.33px;
+    font-weight: 700;
+}
+
+.textSocials {
+    font-family: YAFdJmu7CPY-0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.iconSocials {
+    height: 50px;
+}
+
+.textIconText {
+    font-family: YAFdJmu7CPY-0;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.buttonJoin {
+    font-family: YAEnS2G4JLg-0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    background: #d73cbe;
+    border-radius: 10px;
+    padding: 20px 40px;
+    width: fit-content;
+}
+
+
+.header {
+    margin-left: 72px;
+    margin-right: 72px;
+}
+
+.sectionHome {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-left: 120px;
+    margin-right: 120px;
+    gap: 20px;
+}
+
+.sectionExchange {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-left: 120px;
+    margin-right: 40px;
+    gap: 60px;
+}
+
+.imageExchange {
+    position: relative;
+    height: 480px;
+}
+
+.imageExchange1 {
+    position: absolute;
+    width: 333px;
+    left: calc(50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imageExchange2 {
+    position: absolute;
+    width: 280px;
+    left: calc(50% - 160px);
+    top: calc(50% - 40px);
+    transform: translate(-50%, -50%);
+}
+
+.sectionPrivacy {
+    display: grid;
+    gap: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.sectionPrivacyCards {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.sectionPair {
+    display: grid;
+    margin-left: 80px;
+    margin-right: 40px;
+    margin-top: 60px;
+    padding: 120px;
+    padding-top: 40px;
+    border-width: 1px;
+    gap: 20px;
+}
+
+.sectionPairContent {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.imagePair1 {
+    position: absolute;
+    width: 180px;
+    left: 0;
+    top: -140px;
+}
+
+.imagePair2 {
+    position: absolute;
+    width: 480px;
+    right: 120px;
+    bottom: -20px;
+}
+
+.sectionCustomer {
+    display: flex;
+    margin-left: 120px;
+    margin-right: 40px;
+    margin-top: 140px;
+    gap: 20px;
+}
+
+.sectionCustomerL {
+    width: 55%;
+}
+
+.sectionCustomerR {
+    width: 45%;
+}
+
+.imageCustomer {
+    position: absolute;
+    width: 260px;
+    left: -120px;
+    top: -120px;
+}
+
+.sectionWallets {
+    display: flex;
+    margin-left: 120px;
+    margin-right: 40px;
+    gap: 20px;
+}
+
+.sectionWalletL {
+    width: 45%;
+}
+
+.sectionWalletR {
+    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    row-gap: 35px;
+    column-gap: 70px;
+}
+
+.sectionCommunity {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-left: 120px;
+    margin-right: 40px;
+    gap: 20px;
+}
+
+.sectionCommunityContent {
+    margin-right: 60px;
+}
+
+.imageWallet {
+    position: relative;
+    height: 540px;
+}
+
+.imageWallet1 {
+    position: absolute;
+    width: 400px;
+    left: calc(50% - 120px);
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imageWallet2 {
+    position: absolute;
+    width: 260px;
+    left: calc(50% + 40px);
+    top: calc(50% + 40px);
+    transform: translate(-50%, -50%);
+}
+
+.imageCommunity {
+    position: relative;
+}
+
+.imageCommunity1 {
+    position: absolute;
+    width: 330px;
+    left: 120px;
+    top: 60px;
+}
+
+.imageCommunity2 {
+    position: absolute;
+    width: 280px;
+    left: 40px;
+    top: 240px;
+}
+
+@media (max-width: 1365.95px) {
+    .sectionExchange {
+        margin-left: 6vw;
+        margin-right: 6vw;
+        margin-top: 160px;
+    }
+
+    .imageExchange {
+        height: 35.14vw;
+    }
+
+    .imageExchange1 {
+        width: 24.38vw;
+        left: 50%;
+        top: 50%;
+    }
+
+    .imageExchange2 {
+        width: 20.5vw;
+        left: calc(50% - 11.71vw);
+        top: calc(50% - 2.93vw);
+    }
+
+    .sectionPrivacy {
+        margin-left: 6vw;
+        margin-right: 6vw;
+        margin-top: 160px;
+    }
+
+    .sectionPair {
+        margin-left: 6vw;
+        margin-right: 6vw;
+        margin-top: 160px;
+    }
+
+    .imagePair1 {
+        width: 13.17vw;
+        left: 0;
+        top: -10.24vw;
+    }
+
+    .imagePair2 {
+        width: 35.14vw;
+        right: 8.78vw;
+        bottom: -1.46vw;
+    }
+
+    .sectionCustomer {
+        margin-left: 6vw;
+        margin-right: 6vw;
+        margin-top: 160px;
+    }
+
+    .sectionWallets {
+        margin-left: 6vw;
+        margin-right: 6vw;
+        margin-top: 160px;
+    }
+
+    .sectionCommunity {
+        margin-left: 6vw;
+        margin-right: 6vw;
+        margin-top: 160px;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 0;
+    }
+
+    .sectionCommunityContent {
+        margin-right: 0;
+    }
+
+    .imageCustomer {
+        width: 17.03vw;
+        left: -8.78vw;
+        top: -8.78vw;
+    }
+
+    .imageWallet {
+        height: 39.53vw;
+    }
+
+    .imageWallet1 {
+        width: 29.28vw;
+        left: calc(50% - 4.39vw);
+        top: 50%;
+    }
+
+    .imageWallet2 {
+        width: 19.03vw;
+        left: calc(50% + 7.32vw);
+        top: calc(50% + 2.93vw);
+    }
+
+    .imageCommunity {
+        position: initial;
+    }
+
+    .imageCommunity1 {
+        width: 330px;
+        left: auto;
+        right: 40px;
+        top: 0px;
+    }
+
+    .imageCommunity2 {
+        width: 280px;
+        left: auto;
+        right: 200px;
+        top: 200px;
+    }
+}
+
+@media (max-width: 1023.95px) {
+    .iconLogo {
+        height: 40px;
+    }
+
+    .textLogo {
+        font-size: 30px;
+    }
+
+    .textLogoSubtitle {
+        font-size: 10px;
+    }
+
+    .header {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 24px;
+    }
+
+    .textNavBar {
+        font-size: 2.08vw;
+    }
+
+    .sectionHome {
+        margin-left: 6vw;
+        margin-right: 6vw;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .sectionExchange {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .sectionPrivacyCards {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .sectionCustomer {
+        display: grid;
+        gap: 20px;
+    }
+
+    .sectionCustomerL {
+        width: 100%;
+    }
+
+    .sectionCustomerR {
+        width: 100%;
+    }
+
+    .sectionWallets {
+        display: grid;
+        gap: 20px;
+    }
+
+    .sectionWalletL {
+        width: 100%;
+    }
+
+    .sectionWalletR {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.95px) {
+    .textNavBar {
+        font-size: 3vw;
+    }
+
+    .sectionExchange {
+        gap: 20px;
+    }
+
+    .imageExchange {
+        height: 270px;
+    }
+
+    .imageExchange1 {
+        width: 187px;
+        left: calc(50% + 30px);
+    }
+
+    .imageExchange2 {
+        width: 157px;
+        left: calc(50% - 60px);
+        top: calc(50% - 22.5px);
+    }
+
+    .sectionPair {
+        padding: 40px;
+    }
+
+    .imageWallet {
+        height: 300px;
+    }
+
+    .imageWallet1 {
+        width: 240px;
+        left: calc(50% - 36px);
+        top: 50%;
+    }
+
+    .imageWallet2 {
+        width: 150px;
+        left: calc(50% + 60px);
+        top: calc(50% + 24px);
+    }
+
+    .imageCommunity1 {
+        width: 220px;
+        left: auto;
+        right: 0px;
+        top: 40px;
+    }
+
+    .imageCommunity2 {
+        width: 180px;
+        left: auto;
+        right: 120px;
+        top: 160px;
+    }
+
+    .imageCustomer {
+        width: 130px;
+        left: -60px;
+        top: -60px;
+    }
+
+    .sectionWalletR {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767.95px) {
+    .textSocials {
+        font-size: 3vw;
+    }
+
+    .iconSocials {
+        height: 6.25vw;
+    }
+}
+
+@media (max-width: 479.95px) {
+    .textVideoTitle {
+        font-size: 7vw;
+    }
+
+    .textVideoSubtitle {
+        font-size: 5vw;
+    }
+
+    .textSectionTitle28 {
+        font-size: 7vw;
+    }
+
+    .textSectionTitle40 {
+        font-size: 7vw;
+    }
+
+    .textSectionTitle48 {
+        font-size: 7vw;
+    }
+
+    .textSectionContent {
+        font-size: 5vw;
+    }
+
+    .textExchange {
+        font-size: 5vw;
+    }
+
+    .cardPrivacy {
+        font-size: 7vw;
+    }
+
+    .textCommunity {
+        font-size: 7vw;
+    }
+
+    .textSocials {
+        font-size: 3vw;
+    }
+
+    .iconSocials {
+        height: 6.25vw;
+    }
+}
